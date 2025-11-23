@@ -1,6 +1,38 @@
-# My-Python-Learning-Journey
-A repository to record my Python learning process.
-My-Python-Learning-Journey/
-├── README.md           # 项目说明文档
-├── 题目1.py           # 猜数字游戏
-└── 题目2.py           # 智能购物车程序
+# My Python Learning Journey
+
+## 项目概述
+
+这是一个记录Python学习历程的GitHub仓库，包含两个实用的Python小程序：猜数字游戏和智能购物车系统。
+
+## 项目介绍
+
+### 1. 猜数字游戏 `题目1.py`
+- **功能描述**: 经典的猜数字游戏，计算机随机生成1-100的数字，玩家有5次猜测机会
+- **技术特点**: 随机数生成、循环控制、用户交互、条件判断
+- **游戏规则**: 根据提示猜测数字，5次机会内猜中即为胜利
+
+### 2. 智能购物车 `题目2.py`  
+- **功能描述**: 模拟电商购物车系统，支持商品添加、自动折扣计算和详细账单生成
+- **技术特点**: 数据处理、多级条件判断、格式化输出、浮点数计算
+- **折扣规则**: 
+  - 满500元 → 8折优惠
+  - 满300元 → 9折优惠  
+  - 满100元 → 95折优惠
+  - 不满100元 → 原价购买
+
+## 如何运行
+
+### 运行步骤
+
+```bash
+# 1. 克隆项目到本地
+git clone https://github.com/jakson520/My-Python-Learning-Journey.git
+
+# 2. 进入项目目录
+cd My-Python-Learning-Journey
+
+# 3. 运行猜数字游戏（按照提示输入1-100之间的数字进行游戏）
+python 代码1.py
+
+# 4. 运行智能购物车（输入商品信息，输入"done"结束购物并查看结算）
+python 代码2.py
